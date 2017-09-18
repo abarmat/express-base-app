@@ -1,0 +1,14 @@
+general:
+  cookie_secret: '123ABC'
+  test: false
+
+auth:
+  key: 'client_key'
+  secret: 'client_secret'
+
+logging:
+  path: './app.log'
+
+db:
+  debug: true
+  connection_string: 'mongodb://localhost/app'
